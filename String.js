@@ -47,3 +47,11 @@ console.log(newstr);
 console.log(newstr.replace("Ji", "Dhawal"));
 console.log(newstr.replaceAll("Ji", "Dhawal"));
 
+let str11 = "Money.is.Very.Precious";
+// let str12="Money.is.Very.Precious"
+console.log(str11.split("."));
+console.log(str11.trim()); //starting aur end wale space ko hata dega only
+
+let lateststring = new String("Hello Bhaiyo");
+console.log(lateststring);
+console.log(typeof lateststring);
