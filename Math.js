@@ -1,0 +1,11 @@
+console.log(Math.E);
+console.log(Math.LN10);
+console.log(Math.PI);
+console.log(Math.LOG10E);
+console.log(Math.random() * 10);
+console.log(Math.floor(3.24));
+console.log(Math.ceil(3.24)); 
+console.log(Math.floor(Math.random() * 10) + 11);
+let min = 40;
+let max = 50;
+console.log(Math.floor(Math.random() * (max - min + 1) + min));
