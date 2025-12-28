@@ -75,6 +75,5 @@ console.log(newarr2);
 let abc = [2, 1, 3, 4];
 console.log(Array.isArray(abc));
 
-
 let ac = new Array(2, 3, 4, 5);
 console.log(ac);
