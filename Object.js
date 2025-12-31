@@ -69,3 +69,15 @@ console.log(ob4);
 
 const obj5 = { ...ob1, ...ob2, ...ob3 };
 console.log(obj5);
+
+
+const user={
+  name:"Dhawal",
+  balance:420,
+  address:{
+    pincode:"202020",
+    city:"JPR"
+  }
+}
+
+console.log(user.address.pincode)
