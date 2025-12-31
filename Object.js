@@ -70,14 +70,59 @@ console.log(ob4);
 const obj5 = { ...ob1, ...ob2, ...ob3 };
 console.log(obj5);
 
+const user = {
+  name: "Dhawal",
+  balance: 420,
+  address: {
+    pincode: "202020",
+    city: "JPR",
+  },
+};
 
-const user={
-  name:"Dhawal",
-  balance:420,
-  address:{
-    pincode:"202020",
-    city:"JPR"
+console.log(user.address.pincode);
+
+const user2 = Object.assign({}, user);
+console.log(user2);
+user2.address.pincode = "303030";
+console.log(user.address.pincode);
+
+user2.name = "Rohit";
+console.log(user);
+
+let obj1 = {
+  name: "Dhawal",
+  money: 300,
+  bal: 40,
+  age: 20,
+  adr: "7541078",
+};
+// const { name, money, age } = obj1;
+// console.log(name, money, age);
+const { name, age, ...o1 } = obj;
+console.log(obj1);
+
+let us = {
+  n: "Rohit",
+  amount: 230,
+  greet: function () {
+    console.log("Hello");
+  },
+  meet: function () {
+    return 20;
+  },
+};
+
+us.greet();
+const we = us.meet();
+console.log(we);
+
+
+let oo1={
+  name:"rohit",
+  amt:34,
+  greet:function(){
+    return 10
   }
 }
 
-console.log(user.address.pincode)
+console.log(oo1.toString())
