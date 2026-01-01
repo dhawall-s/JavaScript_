@@ -125,4 +125,8 @@ let oo1={
   }
 }
 
-console.log(oo1.toString())
+console.log(oo1.toString());
+
+
+
+
