@@ -42,3 +42,23 @@ console.log(res);
 
 let res_sum = summ(4, 4);
 console.log(res_sum);
+
+
+const addition=function(...num){
+    console.log(num)
+}
+
+addition(3,4,2)
+
+
+let obj={
+    name:'Rohit',
+    age:37,
+    work:'Cricketer'
+}
+
+
+function fun({name,age}){
+    console.log(name,age)
+}
+fun(obj)
