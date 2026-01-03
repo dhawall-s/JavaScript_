@@ -30,10 +30,15 @@ let square = (num1, num2) => {
   return num1 * num2;
 };
 
-let summ=(num1,num2)=>num1+num2
+let summ = (num1, num2) => num1 + num2;
+
+const cube = (n) => n * n * n;
+
+let res_cu = cube(6);
+console.log(res_cu);
 
 let res = square(4, 4);
 console.log(res);
 
-let res_sum=summ(4,4)
-console.log(res_sum)
+let res_sum = summ(4, 4);
+console.log(res_sum);
