@@ -58,3 +58,24 @@ for (let i = 0; i < 5; i++) {
   sum += i;
 }
 console.log(sum);
+let i = 1;
+while (i < 6) {
+  console.log(i);
+  i++;
+}
+
+let arr = [10, 20, 30];
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);
+}
+
+const obj = {
+  name: "DS",
+  age: 18,
+};
+const a = Object.values(obj);
+console.log(a);
+
+for(let i=0;i<a;i++){
+    console.log(obj[a[i]])
+}
