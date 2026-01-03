@@ -23,5 +23,17 @@ const func1 = function () {
 
 func1();
 
+//Arrow Function
 
+let square = (num1, num2) => {
+  console.log("Hello Bhaiyon");
+  return num1 * num2;
+};
 
+let summ=(num1,num2)=>num1+num2
+
+let res = square(4, 4);
+console.log(res);
+
+let res_sum=summ(4,4)
+console.log(res_sum)
