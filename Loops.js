@@ -77,6 +77,9 @@ const a = Object.values(obj);
 console.log(a);
 
 
+
+
+
 for(let i=0;i<a;i++){
     console.log(obj[a[i]])
 }
