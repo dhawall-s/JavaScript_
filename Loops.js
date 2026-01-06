@@ -74,6 +74,8 @@ const obj = {
   name: "DS",
   age: 18,
 };
+
+
 const a = Object.values(obj);
 console.log(a);
 
