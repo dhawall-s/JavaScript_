@@ -5,4 +5,10 @@
 //css badlna
 //attribute
 //event listener
+// document.querySelector
+// document.getElementById
+// document.getElementsByClassName
 
+let abcd = document.querySelectorAll("h1")
+// console.log(abcd)
+console.dir(abcd)
