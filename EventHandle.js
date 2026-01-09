@@ -10,6 +10,7 @@ h1.addEventListener("click",function(){
     h1.style.color="aqua";
 })
 
+
 let p=document.querySelector("p")
 p.addEventListener("dblclick",function(){
     p.style.backgroundColor='green'
