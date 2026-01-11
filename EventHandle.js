@@ -17,6 +17,7 @@ p.addEventListener("dblclick",function(){
     p.style.backgroundColor='green'
 })
 
+
 let b=document.querySelector("body")
 b.addEventListener("click",bod)
 
