@@ -18,6 +18,8 @@ p.addEventListener("dblclick",function(){
 })
 
 
+
+
 let b=document.querySelector("body")
 b.addEventListener("click",bod)
 
