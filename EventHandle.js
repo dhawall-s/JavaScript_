@@ -1,6 +1,5 @@
 //event matlab kuch action hua
 //event listener ka matlab us event ka reaction
-
 function bod(){
     b.style.backgroundColor='aqua'
 }
